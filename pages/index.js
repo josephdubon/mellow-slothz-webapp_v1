@@ -1,11 +1,9 @@
-import { Form, Select, InputNumber, Switch, Slider, Button } from 'antd'
+import React from 'react'
+import {Col, Layout, Row} from 'antd'
+import Image from 'next/image'
 
-// Custom DatePicker that uses Day.js instead of Moment.js
-import DatePicker from '../components/DatePicker'
 
-import { SmileFilled } from '@ant-design/icons'
-
-import Link from 'next/link'
+const {Header, Content, Footer} = Layout
 
 const FormItem = Form.Item
 const Option = Select.Option
