@@ -61,9 +61,7 @@ export default function () {
                                 </Col>
                             </Row>
 
-const content = {
-  marginTop: '100px',
-}
+                        </div>
 
 export default function Home() {
   return (
