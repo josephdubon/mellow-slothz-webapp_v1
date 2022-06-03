@@ -63,91 +63,47 @@ export default function () {
 
                         </div>
 
-export default function Home() {
-  return (
-    <div style={content}>
-      <div className="text-center mb-5">
-        <Link href="#">
-          <a className="logo mr-0">
-            <SmileFilled size={48} strokeWidth={1} />
-          </a>
-        </Link>
+                        <div className='d-md-flex flex-md-equal w-100 my-md-3 ps-md-3'>
+                            <div className='bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden'>
+                                <div className='my-3 p-3'>
+                                    <h2 className='display-5'>Sample Art</h2>
+                                    <p className='lead'>And an even wittier subheading.</p>
+                                </div>
+                                <div className='bg-dark shadow-sm mx-auto'
+                                     style={{width: '80%', height: '300px', borderRadius: '21px 21px 0 0'}}>{''}</div>
+                            </div>
+                            <div
+                                className='bg-blue me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden'>
+                                <div className='my-3 py-3'>
+                                    <h2 className='display-5 text-white'>Base Art</h2>
+                                    <p className='lead text-white-50'>And an even wittier subheading.</p>
+                                </div>
+                                <div className='bg-light shadow-sm mx-auto'
+                                     style={{width: '80%', height: '300px', borderRadius: '21px 21px 0 0'}}>{''}</div>
+                            </div>
+                        </div>
 
-        <p className="mb-0 mt-3 text-disabled">Welcome to the world !</p>
-      </div>
-      <div>
-        <Form layout="horizontal">
-          <FormItem
-            label="Input Number"
-            labelCol={{ span: 8 }}
-            wrapperCol={{ span: 8 }}
-          >
-            <InputNumber
-              size="large"
-              min={1}
-              max={10}
-              style={{ width: 100 }}
-              defaultValue={3}
-              name="inputNumber"
-            />
-          </FormItem>
+                        <div className='d-md-flex flex-md-equal w-100 my-md-3 ps-md-3'>
+                            <div className='bg-purple me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden'>
+                                <div className='my-3 p-3'>
+                                    <h2 className='display-5 text-white'>Why are we doing this?</h2>
+                                    <p className='lead text-white-50'>And an even wittier subheading.</p>
+                                </div>
+                                <div className='bg-body shadow-sm mx-auto'
+                                     style={{width: '80%', height: '300px', borderRadius: '21px 21px 0 0'}}>{''}</div>
+                            </div>
+                        </div>
+                    </main>
+                </Content>
+            </Col>
 
-          <FormItem
-            label="Switch"
-            labelCol={{ span: 8 }}
-            wrapperCol={{ span: 8 }}
-          >
-            <Switch defaultChecked name="switch" />
-          </FormItem>
+            <Col xs={20} sm={16} md={12} lg={8} xl={4}>
 
-          <FormItem
-            label="Slider"
-            labelCol={{ span: 8 }}
-            wrapperCol={{ span: 8 }}
-          >
-            <Slider defaultValue={70} />
-          </FormItem>
+            </Col>
 
-          <FormItem
-            label="Select"
-            labelCol={{ span: 8 }}
-            wrapperCol={{ span: 8 }}
-          >
-            <Select
-              size="large"
-              defaultValue="lucy"
-              style={{ width: 192 }}
-              name="select"
-            >
-              <Option value="jack">jack</Option>
-              <Option value="lucy">lucy</Option>
-              <Option value="disabled" disabled>
-                disabled
-              </Option>
-              <Option value="yiminghe">yiminghe</Option>
-            </Select>
-          </FormItem>
-
-          <FormItem
-            label="DatePicker"
-            labelCol={{ span: 8 }}
-            wrapperCol={{ span: 8 }}
-          >
-            <DatePicker name="startDate" />
-          </FormItem>
-          <FormItem
-            style={{ marginTop: 48 }}
-            wrapperCol={{ span: 8, offset: 8 }}
-          >
-            <Button size="large" type="primary" htmlType="submit">
-              OK
-            </Button>
-            <Button size="large" style={{ marginLeft: 8 }}>
-              Cancel
-            </Button>
-          </FormItem>
-        </Form>
-      </div>
-    </div>
-  )
+            <Col xs={2} sm={4} md={6} lg={8} xl={10}>
+                Col
+            </Col>
+        </Row>
+    </>)
 }
