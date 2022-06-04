@@ -4,11 +4,11 @@ export default function BottomNav() {
     return (<>
         <p className='lead text-black fw-bold text-center'>
             <span
-                className='fw-bold'>Read through our site and discover how <span
+                className='fw-bold small'>Read through our site and discover how <span
                 className='fw-bolder'>Mellow Slothz</span> will provide new opportunities in the near future.</span>
             <br/>
             <br/>
-            <div className='lead fw-bold'>
+            <div className='small'>
                 {' | '}
                 <Link href='/information'><a>Information Page</a></Link>
                 {' | '}
