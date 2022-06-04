@@ -53,31 +53,30 @@ export default function NavBar() {
                     </Link>
                 </Item>
 
-                    <Item
-                        key='/information'
-                        icon={<InfoCircleFilled/>}
-                        onClick={(e) => {
-                            setCurrentPage(e.key)
-                        }}
-                    >
-                        <Link href='/information'>
-                            <a>Information</a>
-                        </Link>
-                    </Item>
+                <Item
+                    key='/information'
+                    icon={<InfoCircleFilled/>}
+                    onClick={(e) => {
+                        setCurrentPage(e.key)
+                    }}
+                >
+                    <Link href='/information'>
+                        <a>Info</a>
+                    </Link>
+                </Item>
 
-                    <Item
-                        key='/adoption-papers'
-                        icon={<CodeFilled/>}
-                        onClick={(e) => {
-                            setCurrentPage(e.key)
-                        }}
-                    >
-                        <Link href='/adoption-papers'>
-                            <a>Adoption Papers</a>
-                        </Link>
-                    </Item>
-                </Menu>
-            </Header>
-        </div>
+                <Item
+                    key='/adoption-papers'
+                    icon={<CodeFilled/>}
+                    onClick={(e) => {
+                        setCurrentPage(e.key)
+                    }}
+                >
+                    <Link href='/adoption-papers'>
+                        <a>Adoption</a>
+                    </Link>
+                </Item>
+            </Menu>
+        </Header>
     </>)
 }
