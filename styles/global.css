@@ -22,6 +22,24 @@ body {
     text-rendering: optimizeLegibility;
 }
 
+.wrapper {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0 25px;
+}
+
+.btn-outline-info {
+    color: var(--infoColor) !important;
+    border-color: var(--infoColor) !important;
+}
+
+.btn-outline-info:hover {
+    background-color: var(--infoColor) !important;
+    color: var(--secondaryColor) !important;
+    border-color: var(--infoColor) !important;
+}
+
+
 .bg-dark2 {
     --bs-bg-opacity: 1;
     background-color: var(--primaryColor) !important;
