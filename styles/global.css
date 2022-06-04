@@ -238,11 +238,6 @@ body {
     font-weight: bold;
 }
 
-.ant-row-rtl #components-layout-demo-top .logo {
-    float: right;
-    margin: 16px 0 16px 24px;
-}
-
 a {
     text-decoration: none !important;
 }
