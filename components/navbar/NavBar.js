@@ -21,37 +21,37 @@ export default function NavBar() {
     }, [isServer() && window.location.pathname])
 
     return (<>
-        <div className='d-flex justify-content-start'>
-            <Header className='header'>
-                <Link href='/'><a>
-                    <div className='logo'>Mellow Slothz</div>
-                </a></Link>
-                <Menu
-                    theme='dark'
-                    mode='horizontal'
-                    selectedKeys={[currentPage]}
-                    defaultSelectedKeys={[currentPage]}
-                    items={new Array(15).fill(null).map((_, index) => {
-                        const key = index + 1
-                        return {
-                            key,
-                            label: `nav ${key}`,
-                        }
-                    })}
-                    className='mb-2'
+        <Header className='header d-flex justify-content-around flex-nowrap mb-2'>
+            <Link href='/'><a>
+                <div className='logo'>
+                    Mellow Slothz
+                </div>
+            </a></Link>
+            <Menu
+                theme='dark'
+                mode='horizontal'
+                selectedKeys={[currentPage]}
+                defaultSelectedKeys={[currentPage]}
+                items={new Array(15).fill(null).map((_, index) => {
+                    const key = index + 1
+                    return {
+                        key,
+                        label: `nav ${key}`,
+                    }
+                })}
+            >
+                {/* nav items */}
+                <Item
+                    key='/'
+                    onClick={(e) => {
+                        setCurrentPage(e.key)
+                    }}
+                    icon={<HomeFilled/>}
                 >
-                    {/* nav items */}
-                    <Item
-                        key='/'
-                        onClick={(e) => {
-                            setCurrentPage(e.key)
-                        }}
-                        icon={<HomeFilled/>}
-                    >
-                        <Link href='/'>
-                            <a>Home</a>
-                        </Link>
-                    </Item>
+                    <Link href='/'>
+                        <a>Home</a>
+                    </Link>
+                </Item>
 
                     <Item
                         key='/information'
