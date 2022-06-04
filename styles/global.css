@@ -281,12 +281,11 @@ a {
 
 .icon-list {
     color: var(--secondaryColor);
-    margin-right: 2rem;
+    margin: 1rem;
 }
 
 .icon-list:hover {
     color: var(--infoColor);
-    margin-right: 2rem;
 }
 
 .flex-equal > * {
