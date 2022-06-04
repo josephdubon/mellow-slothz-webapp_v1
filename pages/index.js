@@ -4,7 +4,6 @@ import Image from 'next/image'
 import Head from 'next/head'
 import BottomNav from '../components/navbar/BottomNav'
 
-
 const {Content} = Layout
 
 export default function IndexMain() {
