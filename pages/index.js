@@ -1,6 +1,7 @@
 import React from 'react'
 import {Col, Layout, Row} from 'antd'
 import Image from 'next/image'
+import Head from 'next/head'
 import BottomNav from '../components/navbar/BottomNav'
 
 
@@ -8,6 +9,13 @@ const {Content} = Layout
 
 export default function IndexMain() {
     return (<>
+        {/* page head */}
+        <Head>
+            <title>Mellow Slothz</title>
+            <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        </Head>
+
+        {/* content */}
         <Row className='bg-dark2 text-dark'>
             <Col xs={24} className='text-center'>
                 <Content>
