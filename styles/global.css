@@ -69,6 +69,14 @@ body {
     text-align: center !important;
 }
 
+.text-info-purp {
+    color: var(--secondaryColor) !important;
+}
+
+.ant-list {
+    font-size: 1.2rem !important;
+}
+
 .m-0 {
     margin: 0 !important;
 }
