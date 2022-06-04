@@ -14,8 +14,6 @@ export default function NavBar() {
     const [currentPage, setCurrentPage] = useState('')
     const isServer = () => typeof window !== 'undefined'
 
-    const router = useRouter
-
     // update state on page change
     useEffect(() => {
         // process.browser is depreciated use typeof instead
