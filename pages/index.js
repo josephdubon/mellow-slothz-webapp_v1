@@ -38,7 +38,9 @@ export default function IndexMain() {
                                     projects in the crypto space.
                                 </p>
                                 <a className='btn btn-outline-light text-capitalize' href='#mellow-slothz-art'>Check out
-                                    our art</a>{' '}
+                                    our art</a>
+                                <br/>
+                                <br/>
                                 <a className='btn btn-outline-info text-capitalize' href='#why-are-we-doing-this'>Why
                                     are we doing
                                     this?</a>
