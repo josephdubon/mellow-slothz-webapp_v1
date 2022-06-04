@@ -51,7 +51,7 @@ export default function informationMain() {
                                 <div className='my-3 p-3'>
                                     <h2 className='display-5 text-white text-capitalize'>{''}</h2>
                                 </div>
-                                <div className='bg-body shadow-sm mx-auto p-5'
+                                <div className='bg-body shadow-sm mx-auto p-3'
                                      style={{width: '80vw', height: 'auto', borderRadius: '21px 21px 0 0'}}>
 
                                     {/* mission statement */}
