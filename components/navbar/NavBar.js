@@ -1,9 +1,9 @@
 import {useEffect, useState} from 'react'
 import Link from 'next/link'
-import useRouter from 'next/router'
-import {Menu} from 'antd'
+import {Layout, Menu} from 'antd'
+import {CodeFilled, HomeFilled, InfoCircleFilled} from '@ant-design/icons'
 
-import {AppstoreOutlined, TeamOutlined} from '@ant-design/icons'
+const {Header} = Layout
 
 
 // de-structure item from menu
