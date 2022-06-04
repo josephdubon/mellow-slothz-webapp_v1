@@ -255,6 +255,10 @@ a {
 
 }
 
+.ant-layout-header {
+    padding: 0 0 !important;
+}
+
 .site-header {
     background-color: rgba(0, 0, 0, .85);
     -webkit-backdrop-filter: saturate(180%) blur(20px);
