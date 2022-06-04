@@ -80,7 +80,7 @@ export default function IndexMain() {
                                     <h2 className='display-5 text-white'>Why are we doing this?</h2>
                                     <p className='lead text-white-50'>mellowslothz.io</p>
                                 </div>
-                                <div className='bg-body shadow-sm mx-auto p-5'
+                                <div className='bg-body shadow-sm mx-auto p-3'
                                      style={{width: '80vw', height: 'auto', borderRadius: '21px 21px 0 0'}}>
 
                                     <p className='lead text-black fw-bold text-center'>
