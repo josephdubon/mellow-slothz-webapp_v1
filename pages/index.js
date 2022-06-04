@@ -1,6 +1,7 @@
 import React from 'react'
 import {Col, Layout, Row} from 'antd'
 import Image from 'next/image'
+import BottomNav from '../components/navbar/BottomNav'
 
 
 const {Header, Content, Footer} = Layout
