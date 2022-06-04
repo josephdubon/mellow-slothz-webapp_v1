@@ -34,6 +34,16 @@ export default function IndexMain() {
                                     this?</a>
                             </div>
 
+                            {/* art col */}
+                            <div
+                                className='d-md-flex justify-content-center sp-lg-5 mx-auto my-5 p-5'>
+                                <Image
+                                    src='/images/Mellow_Slothz_Base.png'
+                                    alt='Mellow Slothz'
+                                    width='600'
+                                    height='600'
+                                />
+                            </div>
                         </div>
 
                         <div className='d-md-flex flex-md-equal w-100 my-md-3 ps-md-3'>
