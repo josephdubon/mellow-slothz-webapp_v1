@@ -3,6 +3,8 @@ import {Col, Layout, Row} from 'antd'
 import Image from 'next/image'
 import Head from 'next/head'
 import BottomNav from '../components/navbar/BottomNav'
+import IconList from '../components/social/IconList'
+
 
 const {Content} = Layout
 
@@ -36,10 +38,13 @@ export default function IndexMain() {
                                     projects in the crypto space.
                                 </p>
                                 <a className='btn btn-outline-light text-capitalize' href='#mellow-slothz-art'>Check out
-                                    our art</a>{' | | '}
+                                    our art</a>{' '}
                                 <a className='btn btn-outline-info text-capitalize' href='#why-are-we-doing-this'>Why
                                     are we doing
                                     this?</a>
+                                <br/><br/>
+
+                                <IconList/>
                             </div>
 
                             {/* art col */}
