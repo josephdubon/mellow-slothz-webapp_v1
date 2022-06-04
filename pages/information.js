@@ -1,6 +1,7 @@
 import React from 'react'
 import {Col, Divider, Layout, List, Row} from 'antd'
 import BottomNav from '../components/navbar/BottomNav'
+import Head from 'next/head'
 
 
 const {Content} = Layout
@@ -14,6 +15,13 @@ export default function informationMain() {
     ]
 
     return (<>
+        {/* page head */}
+        <Head>
+            <title>Information - Mellow Slothz</title>
+            <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        </Head>
+
+        {/* content */}
         <Row className='bg-dark2 text-dark'>
             <Col xs={24} className='text-center'>
                 <Content>
