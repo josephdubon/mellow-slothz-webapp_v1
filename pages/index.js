@@ -11,7 +11,7 @@ export default function IndexMain() {
         {/* page head */}
         <Head>
             <title>Mellow Slothz</title>
-            <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+            <meta name='viewport' content='initial-scale=1.0, width=device-width'/>
         </Head>
 
         {/* content */}
