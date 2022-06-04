@@ -279,6 +279,16 @@ a {
  * Extra utilities
  */
 
+.icon-list {
+    color: var(--secondaryColor);
+    margin-right: 2rem;
+}
+
+.icon-list:hover {
+    color: var(--infoColor);
+    margin-right: 2rem;
+}
+
 .flex-equal > * {
     flex: 1;
 }
