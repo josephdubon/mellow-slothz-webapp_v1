@@ -38,7 +38,7 @@ export default function AdoptionMain() {
                                     <h2 className='display-5 text-white'>Thank you for visiting.</h2>
                                 </div>
                                 <div className='bg-body shadow-sm mx-auto p-5'
-                                     style={{width: '80%', height: 'auto', borderRadius: '21px 21px 0 0'}}>
+                                     style={{width: '80vw', height: 'auto', borderRadius: '21px 21px 0 0'}}>
 
                                     <p className='lead text-black fw-bold text-center'>
                                         {' '}
