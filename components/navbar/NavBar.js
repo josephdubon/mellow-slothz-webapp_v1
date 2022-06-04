@@ -7,7 +7,7 @@ const {Header} = Layout
 
 
 // de-structure item from menu
-const {Item, ItemGroup, SubMenu} = Menu
+const {Item} = Menu
 
 export default function NavBar() {
     // set state for current page/link
