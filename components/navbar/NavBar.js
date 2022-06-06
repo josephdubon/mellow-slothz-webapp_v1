@@ -24,6 +24,12 @@ export default function NavBar() {
         <Header className='header d-flex justify-content-around flex-nowrap mb-2'>
             <Link href='/'><a>
                 <div className='logo'>
+                    <img
+                        src='/images/Cardano-ADA-Logo.svg'
+                        width='40px'
+                        height='40px'
+                        className='icon-list'
+                        alt='Cardano'/>
                     Mellow Slothz
                 </div>
             </a></Link>
