@@ -50,6 +50,13 @@ export default function IndexMain() {
 
                                 {/* socials */}
                                 <IconList/>
+
+                                {/*  scroll icon */}
+                                <Link href='#mellow-slothz-art'>
+                                    <a>
+                                        <FaArrowAltCircleDown className='icon-list scroll-arrow' size='3rem'/>
+                                    </a>
+                                </Link>
                             </div>
 
                             {/* art col */}
