@@ -38,13 +38,14 @@ export default function IndexMain() {
                                     Home to some of the most creative cNFT
                                     projects in the crypto space.
                                 </p>
-                                <a className='btn btn-outline-light text-capitalize' href='#mellow-slothz-art'>Check out
-                                    our art</a>
-                                <br/>
-                                <br/>
-                                <a className='btn btn-outline-info text-capitalize' href='#why-are-we-doing-this'>Why
-                                    are we doing
-                                    this?</a>
+                                <Link href='#mellow-slothz-art'>
+                                    <a className='btn btn-outline-light btn-space text-capitalize'>Check out
+                                        our art</a>
+                                </Link>
+                                <Link href='#why-are-we-doing-this'>
+                                    <a className='btn btn-outline-info btn-space text-capitalize'>Why are we doing
+                                        this?</a>
+                                </Link>
                                 <br/><br/>
 
                                 <IconList/>
