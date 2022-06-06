@@ -77,16 +77,16 @@ export default function informationMain() {
 
                                     {/* who we donate to */}
                                     <div id='who-we-donate-to'>
-                                        <h1 className='display-5 text-capitalize'>Who we donate to</h1>
+                                        <h1 className='display-5 text-white text-capitalize'>Who we donate to</h1>
                                         <Divider/>
-                                        <p className='lead text-black fw-normal text-left'>
-                                            Mellow Slothz is starting off with donations to slothconservation.org who
-                                            are
-                                            doing great work to conserve and protect the sloth population in tropical
-                                            areas.
-                                            Sloths encounter many threats due to human encroachment into their habitable
-                                            zones. These threats include direct human involvement such as hunting and
-                                            capture for the illegal pet trade.
+                                        <p className='lead text-white-50 fw-normal text-left'>
+                                            Mellow Slothz is starting off with donations to <a
+                                            href='https://slothconservation.org/'
+                                            target='_blank'>slothconservation.org</a> who are doing great work to
+                                            conserve and protect the sloth population in tropical areas. Sloths
+                                            encounter many threats due to human encroachment into their habitable zones.
+                                            These threats include direct human involvement such as hunting and capture
+                                            for the illegal pet trade.
                                             <br/>
                                             <br/>
                                             Indirect threats arise from dogs, power transmission lines and distribution
@@ -101,9 +101,9 @@ export default function informationMain() {
 
                                     {/* future utility */}
                                     <div id='future-utility'>
-                                        <h1 className='display-5 text-capitalize'>Future Utility</h1>
+                                        <h1 className='display-5 text-white text-capitalize'>Future Utility</h1>
                                         <Divider/>
-                                        <p className='lead text-black fw-normal text-left'>
+                                        <p className='lead text-white-50 fw-normal text-left'>
                                             Mellow Slothz NFTs are being released in 5 sets of 3000 units each. Each set
                                             will be designated in support of a selected small stake pool organization.
                                             These stake pools, or ‘rescues’, will be the holders of the wallets that
@@ -113,17 +113,15 @@ export default function informationMain() {
                                             <br/>
                                             <br/>
                                             Our goal in this is to spread awareness of small stake pools that need a
-                                            little
-                                            more support in the way of delegators in order to be selected for block
-                                            rewards
-                                            more consistently.
+                                            little more support in the way of delegators in order to be selected for
+                                            block rewards more consistently.
                                             <br/>
                                             <br/>
                                             In the future, holders of a Mellow Slothz NFT will be eligible for bonuses
-                                            on
-                                            WineGarden.io. These bonuses can be increased if the person utilizing
-                                            WineGarden.io has at
-                                            least one of each set in their wallet.
+                                            on <a href='https://winegarden.io/' target='_blank'>WineGarden.io</a>. These
+                                            bonuses can be increased if the person utilizing <a
+                                            href='https://winegarden.io/' target='_blank'>WineGarden.io</a> has at least
+                                            one of each set in their wallet.
                                         </p>
                                         <br/>
                                         <br/>
@@ -131,22 +129,23 @@ export default function informationMain() {
 
                                     {/* categorization info */}
                                     <div id='mellow-slothz-categories'>
-                                        <h1 className='display-5 text-capitalize'>How Mellow Slothz are categorized</h1>
+                                        <h1 className='display-5 text-white text-capitalize'>How Mellow Slothz are
+                                            categorized</h1>
                                         <Divider/>
-                                        <p className='lead text-black text-left'>
+                                        <div className='lead text-white-50 text-left'>
                                             <List
-                                                header={<div className='fw-bold text-info-purp'>Recues, Families, and
-                                                    Adoptions...</div>}
+                                                header={<p className='fw-bold text-white'>Recues, Families, and
+                                                    Adoptions...</p>}
                                                 footer={null}
                                                 bordered
                                                 dataSource={data}
                                                 renderItem={item => (
-                                                    <List.Item className=' fw-bold'>
+                                                    <List.Item className='text-white-50 fw-bold'>
                                                         {item}
                                                     </List.Item>
                                                 )}
                                             />
-                                        </p>
+                                        </div>
                                         <br/>
                                         <br/>
                                     </div>
