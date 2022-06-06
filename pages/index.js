@@ -48,6 +48,7 @@ export default function IndexMain() {
                                 </Link>
                                 <br/><br/>
 
+                                {/* socials */}
                                 <IconList/>
                             </div>
 
