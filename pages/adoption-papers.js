@@ -11,7 +11,6 @@ export default function AdoptionMain() {
         {/* page head */}
         <Head>
             <title>Adoption Papers - Mellow Slothz</title>
-            <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         </Head>
 
         {/* content */}
@@ -33,12 +32,11 @@ export default function AdoptionMain() {
                         </div>
 
                         <div id='more-info' className='d-md-flex flex-md-equal w-100 my-md-3 ps-md-3'>
-                            <div className='bg-purple me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-scroll'>
+                            <div className='bg-gradient me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-scroll'>
                                 <div className='my-3 p-3'>
                                     <h2 className='display-5 text-white'>Thank you for visiting.</h2>
                                 </div>
-                                <div className='bg-body shadow-sm mx-auto p-5'
-                                     style={{width: '80vw', height: 'auto', borderRadius: '21px 21px 0 0'}}>
+                                <div className='shadow-sm mx-auto p-5'>
 
                                     <p className='lead text-black fw-bold text-center'>
                                         {' '}
