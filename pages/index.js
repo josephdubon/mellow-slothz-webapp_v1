@@ -23,10 +23,10 @@ export default function IndexMain() {
                 <Content>
                     <main className='wrapper'>
                         <div
-                            className='d-md-flex flex-md-equal justify-content-center align-items-center w-100 my-md-3 ps-md-3'>
+                            className='fullscreen d-md-flex flex-md-equal justify-content-center align-items-center w-100 my-md-3 ps-md-3 '>
                             <div className='p-lg-5 mx-auto my-5 text-white-50 text-center'>
-                                <h1 className='display-1 fw-normal fw-bolder text-white'>Mellow Slothz</h1>
-                                <h4 className='display-6 fw-normal fw-bold text-white'>smooth, refined, and set to
+                                <h1 className='display-1 fw-bolder text-white'>Mellow Slothz</h1>
+                                <h4 className='display-6 fw-bold text-white'>smooth, refined, and set to
                                     HODL</h4>
                                 <br/>
                                 <p className='lead fw-bold'>
