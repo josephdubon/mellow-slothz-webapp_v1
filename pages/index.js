@@ -74,8 +74,9 @@ export default function IndexMain() {
                         <div id='mellow-slothz-art' className='d-md-flex flex-md-equal w-100 my-md-3 ps-md-3'>
                             <div className='bg-gradient me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden'>
                                 <div className='my-3 p-3'>
-                                    <h2 className='display-5'>Sample Art</h2>
-                                    <p className='lead'>Something about sample art here.</p>
+                                    <h2 className='display-5 text-white'>Sample Art</h2>
+                                    <p className='lead text-white-50'>Something about sample art here.</p>
+                                    <Divider/>
                                 </div>
                                 <div className='bg-body mx-auto'
                                      style={{width: '80%', height: '300px', borderRadius: '21px 21px 0 0'}}>{''}</div>
