@@ -67,7 +67,7 @@ export default function NavBar() {
                     }}
                 >
                     <Link href='/information'>
-                        <a>Info</a>
+                        <a>Information</a>
                     </Link>
                 </Item>
 
@@ -79,7 +79,7 @@ export default function NavBar() {
                     }}
                 >
                     <Link href='/adoption-papers'>
-                        <a>Adoption</a>
+                        <a>Adoption Papers</a>
                     </Link>
                 </Item>
             </Menu>
