@@ -28,6 +28,35 @@ body {
     padding: 0 25px;
 }
 
+.fullscreen {
+    height: 100vh;
+}
+
+.scroll-arrow {
+    animation-name: floating;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+@keyframes floating {
+    0% {
+        transform: translate(0, 0px);
+    }
+    50% {
+        transform: translate(0, 15px);
+    }
+    100% {
+        transform: translate(0, -0px);
+    }
+}
+
+.btn-space {
+    margin: .5rem !important;
+}
+
 .btn-outline-info {
     color: var(--infoColor) !important;
     border-color: var(--infoColor) !important;
@@ -38,7 +67,6 @@ body {
     color: var(--secondaryColor) !important;
     border-color: var(--infoColor) !important;
 }
-
 
 .bg-dark2 {
     --bs-bg-opacity: 1;
