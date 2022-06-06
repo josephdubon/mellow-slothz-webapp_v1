@@ -46,18 +46,17 @@ export default function informationMain() {
                         </div>
 
                         <div id='more-info' className='d-md-flex flex-md-equal w-100 my-md-3 ps-md-3'>
-                            <div className='bg-purple me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-scroll'>
+                            <div className='bg-gradient me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-scroll'>
                                 <div className='my-3 p-3'>
                                     <h2 className='display-5 text-white text-capitalize'>{''}</h2>
                                 </div>
-                                <div className='bg-body shadow-sm mx-auto p-3'
-                                     style={{width: '80vw', height: 'auto', borderRadius: '21px 21px 0 0'}}>
+                                <div className='shadow-sm mx-auto p-3'>
 
                                     {/* mission statement */}
                                     <div id='mission-statement'>
-                                        <h1 className='display-5 text-capitalize'>Mission Statement</h1>
+                                        <h1 className='display-5 text-white text-capitalize'>Mission Statement</h1>
                                         <Divider/>
-                                        <p className='lead text-black fw-normal text-left'>
+                                        <p className='lead text-white-50 fw-normal text-left'>
                                             Mellow Slothz is here to provide art when available, value when possible,
                                             and
                                             opportunity where it can be utilized. We aim to always be fair and as open
