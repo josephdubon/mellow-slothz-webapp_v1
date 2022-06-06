@@ -1,5 +1,5 @@
 import React from 'react'
-import {Col, Layout, Row} from 'antd'
+import {Col, Divider, Layout, Row} from 'antd'
 import Image from 'next/image'
 import Head from 'next/head'
 import BottomNav from '../components/navbar/BottomNav'
