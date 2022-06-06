@@ -81,15 +81,6 @@ export default function IndexMain() {
                                 <div className='bg-body mx-auto'
                                      style={{width: '80%', height: '300px', borderRadius: '21px 21px 0 0'}}>{''}</div>
                             </div>
-                            <div
-                                className='bg-blue me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden'>
-                                <div className='my-3 py-3'>
-                                    <h2 className='display-5 text-white'>Base Art</h2>
-                                    <p className='lead text-white-50'>Something about base art here.</p>
-                                </div>
-                                <div className='bg-light shadow-sm mx-auto'
-                                     style={{width: '80%', height: '300px', borderRadius: '21px 21px 0 0'}}>{''}</div>
-                            </div>
                         </div>
 
                         <div id='why-are-we-doing-this' className='d-md-flex flex-md-equal w-100 my-md-3 ps-md-3'>
