@@ -18,7 +18,6 @@ export default function informationMain() {
         {/* page head */}
         <Head>
             <title>Information - Mellow Slothz</title>
-            <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         </Head>
 
         {/* content */}
