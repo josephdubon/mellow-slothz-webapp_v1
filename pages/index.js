@@ -4,6 +4,8 @@ import Image from 'next/image'
 import Head from 'next/head'
 import BottomNav from '../components/navbar/BottomNav'
 import IconList from '../components/social/IconList'
+import {FaArrowAltCircleDown} from 'react-icons/fa'
+import Link from 'next/link'
 
 
 const {Content} = Layout
@@ -13,7 +15,6 @@ export default function IndexMain() {
         {/* page head */}
         <Head>
             <title>Mellow Slothz</title>
-            <meta name='viewport' content='initial-scale=1.0, width=device-width'/>
         </Head>
 
         {/* content */}
@@ -62,12 +63,12 @@ export default function IndexMain() {
                         </div>
 
                         <div id='mellow-slothz-art' className='d-md-flex flex-md-equal w-100 my-md-3 ps-md-3'>
-                            <div className='bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden'>
+                            <div className='bg-gradient me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden'>
                                 <div className='my-3 p-3'>
                                     <h2 className='display-5'>Sample Art</h2>
                                     <p className='lead'>Something about sample art here.</p>
                                 </div>
-                                <div className='bg-dark shadow-sm mx-auto'
+                                <div className='bg-body mx-auto'
                                      style={{width: '80%', height: '300px', borderRadius: '21px 21px 0 0'}}>{''}</div>
                             </div>
                             <div
@@ -82,18 +83,18 @@ export default function IndexMain() {
                         </div>
 
                         <div id='why-are-we-doing-this' className='d-md-flex flex-md-equal w-100 my-md-3 ps-md-3'>
-                            <div className='bg-purple me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-scroll'>
+                            <div className='bg-gradient me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-scroll'>
                                 <div className='my-3 p-3'>
                                     <h2 className='display-5 text-white'>Why are we doing this?</h2>
-                                    <p className='lead text-white-50'>mellowslothz.io</p>
+                                    <p className='lead text-white-50'>mellowslothz.com</p>
+                                    <Divider/>
                                 </div>
-                                <div className='bg-body shadow-sm mx-auto p-3'
-                                     style={{width: '80vw', height: 'auto', borderRadius: '21px 21px 0 0'}}>
+                                <div className='mx-auto p-3'>
 
-                                    <p className='lead text-black fw-bold text-center'>
+                                    <p className='lead text-white fw-bold text-center'>
                                         Mellow Slothz is an NFT project built on Cardano.
                                     </p>
-                                    <p className='lead text-black text-left'>
+                                    <p className='lead text-white-50 text-left'>
                                         Our desire was to create a project that has appeal for more than one reason.
                                         <br/>
                                         Bringing ideas to life sometimes takes creative measures. <span
@@ -105,8 +106,8 @@ export default function IndexMain() {
                                         Do you like our artwork for its visual appeal, or want to support small stake
                                         pool operators in their goal to decentralize and offer unique values?
                                         <br/>
-                                        Or maybe want utility but aren’t interested in <i>another metaverse</i>, and
-                                        provide donations to the <i>vulnerable sloth population</i>, we got you.
+                                        We aim to provide future utility and provide donations to support vulnerable
+                                        sloth populations. We are not going to build just another metaverse.
                                         <br/>
                                         <br/>
                                         <span
