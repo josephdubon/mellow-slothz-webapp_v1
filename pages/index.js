@@ -38,11 +38,11 @@ export default function IndexMain() {
                                     Home to some of the most creative cNFT
                                     projects in the crypto space.
                                 </p>
-                                <Link href='#mellow-slothz-art'>
+                                <Link href={'#mellow-slothz-art'}>
                                     <a className='btn btn-outline-light btn-space text-capitalize'>Check out
                                         our art</a>
                                 </Link>
-                                <Link href='#why-are-we-doing-this'>
+                                <Link href={'#why-are-we-doing-this'}>
                                     <a className='btn btn-outline-info btn-space text-capitalize'>Why are we doing
                                         this?</a>
                                 </Link>
@@ -52,7 +52,7 @@ export default function IndexMain() {
                                 <IconList/>
 
                                 {/*  scroll icon */}
-                                <Link href='#mellow-slothz-art'>
+                                <Link href={'#mellow-slothz-art'}>
                                     <a>
                                         <FaArrowAltCircleDown className='icon-list scroll-arrow' size='3rem'/>
                                     </a>
@@ -72,7 +72,7 @@ export default function IndexMain() {
                         </div>
 
                         <div id='mellow-slothz-art' className='d-md-flex flex-md-equal w-100 my-md-3 ps-md-3'>
-                            <div className='bg-gradient me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden'>
+                            <div className='me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden'>
                                 <div className='my-3 p-3'>
                                     <h2 className='display-5 text-white'>Sample Art</h2>
                                     <p className='lead text-white-50'>Something about sample art here.</p>
@@ -84,7 +84,7 @@ export default function IndexMain() {
                         </div>
 
                         <div id='why-are-we-doing-this' className='d-md-flex flex-md-equal w-100 my-md-3 ps-md-3'>
-                            <div className='bg-gradient me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-scroll'>
+                            <div className='me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-scroll'>
                                 <div className='my-3 p-3'>
                                     <h2 className='display-5 text-white'>Why are we doing this?</h2>
                                     <p className='lead text-white-50'>mellowslothz.com</p>
