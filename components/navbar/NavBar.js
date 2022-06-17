@@ -34,6 +34,7 @@ export default function NavBar() {
             </a></Link>
             <Menu
                 theme='dark'
+                className='bg-dark'
                 mode='horizontal'
                 selectedKeys={[currentPage]}
                 defaultSelectedKeys={[currentPage]}
