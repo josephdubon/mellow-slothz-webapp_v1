@@ -34,7 +34,7 @@ body {
 
 .scroll-arrow {
     animation-name: floating;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
     margin-left: 30px;
@@ -51,6 +51,21 @@ body {
     100% {
         transform: translate(0, -0px);
     }
+}
+
+.ant-card {
+    background: rgb(21,18,29);
+    background: radial-gradient(circle, rgba(21,18,29,1) 0%, rgba(26,19,37,1) 35%, rgba(67,50,94,0.26936712184873945) 100%);
+    color: var(--textColorSecondary);
+    height: 100%;
+    box-shadow: var(--backgroundColor) 6px 6px 6px;
+    transition: transform 1s ease;
+    will-change: transform;
+}
+
+/* Slight parallax effect on hover */
+.ant-card:hover {
+    transform: scale(103%);
 }
 
 .btn-space {
