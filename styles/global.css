@@ -54,18 +54,18 @@ body {
 }
 
 .ant-card {
-    background: rgb(21,18,29);
-    background: radial-gradient(circle, rgba(21,18,29,1) 0%, rgba(26,19,37,1) 35%, rgba(67,50,94,0.26936712184873945) 100%);
-    color: var(--textColorSecondary);
+    background: rgb(21,18,29) !important;
+    background: radial-gradient(circle, rgba(21,18,29,1) 0%, rgba(26,19,37,1) 35%, rgba(67,50,94,0.26936712184873945) 100%)  !important;
+    color: var(--textColorSecondary)  !important;
     height: 100%;
-    box-shadow: var(--backgroundColor) 6px 6px 6px;
-    transition: transform 1s ease;
-    will-change: transform;
+    box-shadow: var(--backgroundColor) 6px 6px 6px  !important;
+    transition: transform 1s ease !important;
+    will-change: transform !important;
 }
 
 /* Slight parallax effect on hover */
 .ant-card:hover {
-    transform: scale(103%);
+    transform: scale(103%) !important;
 }
 
 .btn-space {
