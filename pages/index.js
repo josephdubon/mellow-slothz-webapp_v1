@@ -1,5 +1,5 @@
 import React from 'react'
-import {Col, Divider, Layout, Row} from 'antd'
+import {Card, Col, Divider, Layout, Row} from 'antd'
 import Image from 'next/image'
 import Head from 'next/head'
 import BottomNav from '../components/navbar/BottomNav'
@@ -72,75 +72,73 @@ export default function IndexMain() {
                         </div>
 
                         <div id='mellow-slothz-art' className='d-md-flex flex-md-equal w-100 my-md-3 ps-md-3'>
-                            <div className='me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden'>
+                            <div className='me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center'>
                                 <div className='my-3 p-3'>
                                     <h2 className='display-5 text-white'>Sample Art</h2>
-                                    <p className='lead text-white-50'>Something about sample art here.</p>
                                     <Divider/>
                                 </div>
-                                <div className='bg-body mx-auto'
-                                     style={{width: '80%', height: '300px', borderRadius: '21px 21px 0 0'}}>{''}</div>
+                                <div className='bg-gradient mx-auto'
+                                     style={{width: '80%', height: '600px', borderRadius: '21px 21px 0 0'}}>
+                                    {''}
+                                </div>
                             </div>
                         </div>
 
                         <div id='why-are-we-doing-this' className='d-md-flex flex-md-equal w-100 my-md-3 ps-md-3'>
-                            <div className='me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-scroll'>
+                            <div className='me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-scroll mt-5'>
                                 <div className='my-3 p-3'>
                                     <h2 className='display-5 text-white'>Why are we doing this?</h2>
                                     <p className='lead text-white-50'>mellowslothz.com</p>
-                                    <Divider/>
                                 </div>
                                 <div className='mx-auto p-3'>
+                                    <Card className='content' bordered={true}>
 
-                                    <p className='lead text-white fw-bold text-center'>
-                                        Mellow Slothz is an NFT project built on Cardano.
-                                    </p>
-                                    <p className='lead text-white-50 text-left'>
-                                        Our desire was to create a project that has appeal for more than one reason.
-                                        <br/>
-                                        Bringing ideas to life sometimes takes creative measures. <span
-                                        className='fw-bold'>Mellow Slothz</span> is one
-                                        such project.
-                                        <br/>
-                                        <br/>
+                                        <p className='lead text-white fw-bold text-center'>
+                                            Mellow Slothz is an NFT project built on Cardano.
+                                        </p>
+                                        <p className='lead text-white-50 text-left'>
+                                            Our desire was to create a project that has appeal for more than one reason.
+                                            <br/>
+                                            Bringing ideas to life sometimes takes creative measures. <span
+                                            className='fw-bold'>Mellow Slothz</span> is one
+                                            such project.
+                                            <br/>
+                                            <br/>
 
-                                        Do you like our artwork for its visual appeal, or want to support small stake
-                                        pool operators in their goal to decentralize and offer unique values?
-                                        <br/>
-                                        We aim to provide future utility and provide donations to support vulnerable
-                                        sloth populations. We are not going to build just another metaverse.
-                                        <br/>
-                                        <br/>
-                                        <span
-                                            className='fw-bold'>Mellow Slothz</span> aims to bring small stake pools
-                                        along for a ride that will include
-                                        expansion for them by the way of new delegators and an <span
-                                        className='fw-bold'>ISPO</span> opportunity for a
-                                        new project building on Cardano.
-                                        <br/>
-                                        <br/>
-                                        We are excited to bring our project to you and hope that you will follow us on
-                                        social media through our journey. Remember that we will not message you directly
-                                        on any social media unless you contact us directly through official channels.
-                                        All messaging and possible promotions will be made public and we will never
-                                        contact you first.
-                                        <br/>
-                                        <br/>
-                                    </p>
-                                    <BottomNav/>
+                                            Do you like our artwork for its visual appeal, or want to support small
+                                            stake
+                                            pool operators in their goal to decentralize and offer unique values?
+                                            <br/>
+                                            We aim to provide future utility and provide donations to support vulnerable
+                                            sloth populations. We are not going to build just another metaverse.
+                                            <br/>
+                                            <br/>
+                                            <span
+                                                className='fw-bold'>Mellow Slothz</span> aims to bring small stake pools
+                                            along for a ride that will include
+                                            expansion for them by the way of new delegators and an <span
+                                            className='fw-bold'>ISPO</span> opportunity for a
+                                            new project building on Cardano.
+                                            <br/>
+                                            <br/>
+                                            We are excited to bring our project to you and hope that you will follow us
+                                            on
+                                            social media through our journey. Remember that we will not message you
+                                            directly
+                                            on any social media unless you contact us directly through official
+                                            channels.
+                                            All messaging and possible promotions will be made public and we will never
+                                            contact you first.
+                                            <br/>
+                                            <br/>
+                                        </p>
+                                    </Card>
                                 </div>
+                                <BottomNav/>
                             </div>
                         </div>
                     </main>
                 </Content>
-            </Col>
-
-            <Col xs={20} sm={16} md={12} lg={8} xl={4}>
-
-            </Col>
-
-            <Col xs={2} sm={4} md={6} lg={8} xl={10}>
-                Col
             </Col>
         </Row>
     </>)
