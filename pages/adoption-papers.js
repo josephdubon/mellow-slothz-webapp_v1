@@ -1,5 +1,5 @@
 import React from 'react'
-import {Col, Layout, Row} from 'antd'
+import {Card, Col, Layout, Row} from 'antd'
 import BottomNav from '../components/navbar/BottomNav'
 import Head from 'next/head'
 
@@ -14,7 +14,7 @@ export default function AdoptionMain() {
         </Head>
 
         {/* content */}
-        <Row className='bg-dark2 text-dark'>
+        <Row className='bg-dark2 fullscreen text-dark'>
             <Col xs={24} className='text-center'>
                 <Content>
                     <main className='wrapper'>
@@ -30,31 +30,28 @@ export default function AdoptionMain() {
                             </div>
 
                         </div>
-
-                        <div id='more-info' className='d-md-flex flex-md-equal w-100 my-md-3 ps-md-3'>
-                            <div className='me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-scroll'>
-                                <div className='my-3 p-3'>
-                                    <h2 className='display-5 text-white'>Thank you for visiting.</h2>
-                                </div>
-                                <div className='shadow-sm mx-auto p-5'>
-
-                                    <p className='lead text-black fw-bold text-center'>
-                                        {' '}
-                                    </p>
-                                    <BottomNav/>
-                                </div>
-                            </div>
-                        </div>
                     </main>
                 </Content>
-            </Col>
+                <Content>
+                    <main className='container'>
+                        <Card className='content' bordered={true}>
+                            <div id='more-info' className='d-md-flex flex-md-equal w-100 my-md-3 ps-md-3'>
+                                <div className='me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-scroll'>
+                                    <div className='my-3 p-3'>
+                                        <h2 className='display-5 text-white'>Thank you for visiting.</h2>
+                                    </div>
+                                    <div className='shadow-sm mx-auto p-5'>
 
-            <Col xs={20} sm={16} md={12} lg={8} xl={4}>
-
-            </Col>
-
-            <Col xs={2} sm={4} md={6} lg={8} xl={10}>
-                Col
+                                        <p className='lead text-black fw-bold text-center'>
+                                            {' '}
+                                        </p>
+                                        <BottomNav/>
+                                    </div>
+                                </div>
+                            </div>
+                        </Card>
+                    </main>
+                </Content>
             </Col>
         </Row>
     </>)
