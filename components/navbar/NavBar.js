@@ -20,11 +20,11 @@ export default function NavBar() {
     }, [isServer() && window.location.pathname])
 
     return (<>
-        <Header className='header d-flex justify-content-around flex-nowrap mb-2'>
+        <Header className='header d-flex justify-content-between flex-nowrap mb-2'>
             <Link href='/'><a>
                 <div className='logo'>
                     <img
-                        src='/images/Cardano-ADA-Logo.svg'
+                        src={'/images/Cardano-ADA-Logo.svg'}
                         width='40px'
                         height='40px'
                         className='icon-list'
@@ -65,7 +65,7 @@ export default function NavBar() {
                         setCurrentPage(e.key)
                     }}
                 >
-                    <Link href='/information'>
+                    <Link href={'/information'}>
                         <a>Information</a>
                     </Link>
                 </Item>
@@ -77,7 +77,7 @@ export default function NavBar() {
                         setCurrentPage(e.key)
                     }}
                 >
-                    <Link href='/adoption-papers'>
+                    <Link href={'/adoption-papers'}>
                         <a>Adoption Papers</a>
                     </Link>
                 </Item>
